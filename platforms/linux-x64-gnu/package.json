@@ -1,0 +1,40 @@
+{
+  "name": "@poe-parser/linux-x64-gnu",
+  "description": "Prebuilt binary package for `poe-parser` on `linux-x64-gnu`.",
+  "version": "0.1.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "index.node",
+  "files": [
+    "index.node"
+  ],
+  "neon": {
+    "type": "binary",
+    "rust": "x86_64-unknown-linux-gnu",
+    "node": "linux-x64-gnu",
+    "os": "linux",
+    "arch": "x64",
+    "abi": "gnu"
+  },
+  "author": "loobreak",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loobreak/poe-parser.git"
+  },
+  "keywords": [
+    "Path",
+    "Of",
+    "Exile",
+    "Item",
+    "Parser"
+  ],
+  "bugs": {
+    "url": "https://github.com/loobreak/poe-parser/issues"
+  },
+  "homepage": "https://github.com/loobreak/poe-parser#readme",
+  "license": "MIT"
+}
